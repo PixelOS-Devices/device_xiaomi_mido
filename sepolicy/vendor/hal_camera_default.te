@@ -1,2 +1,2 @@
-allow hal_camera_default default_prop:file { read open };
-allow hal_camera_default bootanim_system_prop:file { read };
+get_prop(hal_camera_default, bootanim_system_prop);
+get_prop(hal_camera_default, camera_prop);
