@@ -208,6 +208,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DuckDuckGo
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido \
