@@ -18,3 +18,6 @@ allow qti_init_shell {
 
 # LEDs
 allow init sysfs_leds:lnk_file read;
+
+# Kernel
+allow init kernel:security { setcheckreqprot };
