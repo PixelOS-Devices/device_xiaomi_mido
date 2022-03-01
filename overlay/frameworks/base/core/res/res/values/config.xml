@@ -603,6 +603,9 @@
     <!-- Button brightness -->
     <bool name="config_button_brightness_support">true</bool>
 
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
+
     <!-- Button backlight control. Possible values are:
             0 - Not supported
             1 - Supported, but only on/off mode
