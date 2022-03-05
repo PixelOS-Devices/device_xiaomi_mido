@@ -42,7 +42,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Sna
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-    
+
 QCOM_SOONG_NAMESPACE := \
     $(LOCAL_PATH)/qcom-caf
 
@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service-lazy \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.3-service.clearkey
+
+# DuckDuckGo
+PRODUCT_PACKAGES += \
+    DuckDuckGo
 
 # Fingerprint
 PRODUCT_PACKAGES += \
