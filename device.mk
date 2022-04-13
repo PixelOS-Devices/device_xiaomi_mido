@@ -361,10 +361,6 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     init.insmod.sh
 
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5 \
