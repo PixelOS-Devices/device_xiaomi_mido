@@ -23,6 +23,9 @@ ro.charger.enable_suspend=true
 # Console
 persist.vendor.console.silent.config=1
 
+# Bluetooth
+bluetooth.device.class_of_device=90,2,12
+
 # Data
 ro.vendor.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
