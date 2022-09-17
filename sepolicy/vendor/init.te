@@ -15,6 +15,9 @@ allow init sysfs_leds:lnk_file read;
 # Power
 allow init sysfs_battery_supply:file setattr;
 
+# Perf
+allow init hal_perf_default:binder { call };
+
 # Kernel
 allow init kernel:security { setcheckreqprot };
 

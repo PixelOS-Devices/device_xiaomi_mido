@@ -32,3 +32,6 @@ allow system_app sysfs_leds:file rw_file_perms;
 allow system_app sysfs_vibrator:dir search;
 allow system_app sysfs_vibrator:file { getattr  open  read  write };
 allow system_app sysfs_vibrator:file rw_file_perms;
+
+# Prop
+allow system_app vendor_default_prop:file { getattr open };
