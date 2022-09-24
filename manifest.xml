@@ -137,6 +137,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
+       <name>android.hardware.power.stats</name>
+       <transport>hwbinder</transport>
+       <interface>
+           <name>IPowerStats</name>
+           <instance>default</instance>
+       </interface>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.radio</name>
         <transport>hwbinder</transport>
         <fqname>@1.5::IRadio/slot1</fqname>
