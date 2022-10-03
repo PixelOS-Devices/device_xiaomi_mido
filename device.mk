@@ -90,8 +90,7 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService \
-    libantradio
+    AntHalService
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -160,7 +159,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libcamshim \
-    libmm-qcamera \
     libui_shim
 
 # Component overrides
@@ -337,7 +335,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
@@ -402,7 +399,6 @@ PRODUCT_PACKAGES += \
     extphonelib-product \
     extphonelib_product.xml \
     librmnetctl \
-    libcnefeatureconfig \
     libxml2 \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
