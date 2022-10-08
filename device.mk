@@ -249,10 +249,6 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
-# HW crypto
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
-
 # IMS
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
@@ -282,10 +278,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_mido
-
-# LMKD
-# Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
 
 # Media
 PRODUCT_COPY_FILES += \
