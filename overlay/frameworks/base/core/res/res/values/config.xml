@@ -649,4 +649,7 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>20</item>
     </integer-array>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">15</integer>
 </resources>
