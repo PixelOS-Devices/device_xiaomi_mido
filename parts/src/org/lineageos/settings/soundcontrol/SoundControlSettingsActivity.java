@@ -17,7 +17,6 @@
 
 package org.lineageos.settings.soundcontrol;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -31,22 +30,15 @@ public class SoundControlSettingsActivity extends CollapsingToolbarBaseActivity 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
-        if (fragment == null) {
-            mSoundControlSettingsFragment = new SoundControlSettings();
-            getFragmentManager().beginTransaction()
-                    .add(R.id.content_frame, mSoundControlSettingsFragment)
-                    .commit();
-        } else {
-            mSoundControlSettingsFragment = (SoundControlSettings) fragment;
-        }
+        getFragmentManager().beginTransaction()
+            .replace(R.id.content_frame,  new SoundControlSettings())
+            .commit();
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-            finish();
+            onBackPressed();
             return true;
         }
         return super.onOptionsItemSelected(item);
