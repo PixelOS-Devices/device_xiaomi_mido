@@ -34,7 +34,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        new DiracUtils(context).onBootCompleted();
 
     int gain = Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_HEADPHONE_GAIN, 4);
@@ -43,5 +42,14 @@ public class BootCompletedReceiver extends BroadcastReceiver {
                 SoundControlSettings.PREF_MICROPHONE_GAIN, 0));
         FileUtils.setValue(SoundControlSettings.SPEAKER_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
                 SoundControlSettings.PREF_SPEAKER_GAIN, 0));
+
+        // Dirac
+        int millis = 1 * 60 * 1000;  // 1min
+        try {
+            Thread.sleep(millis);
+            new DiracUtils(context).onBootCompleted();
+        } catch( Exception e) {
+            e.printStackTrace();
+        }
     }
 }
