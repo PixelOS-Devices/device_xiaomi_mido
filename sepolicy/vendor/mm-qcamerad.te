@@ -4,7 +4,6 @@ allow mm-qcamerad diag_device:chr_file { ioctl open read write };
 get_prop(mm-qcamerad, camera_prop)
 allow mm-qcamerad property_socket:sock_file { write };
 set_prop(mm-qcamerad, camera_prop)
-get_prop(mm-qcamerad, default_prop)
 allow mm-qcamerad camera_socket:dir w_dir_perms;
 allow mm-qcamerad camera_socket:sock_file w_file_perms;
 

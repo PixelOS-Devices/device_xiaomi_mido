@@ -1,7 +1,6 @@
 allow wcnss_service init:unix_stream_socket connectto;
-allow wcnss_service system_prop:file { getattr  open  read };
-allow wcnss_service wifi_data_file:dir search;
 
 dontaudit wcnss_service serialno_prop:file read;
 
 set_prop(wcnss_service, vendor_wifi_prop);
+get_prop(wcnss_service, vendor_wifi_prop);

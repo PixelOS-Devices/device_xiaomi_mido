@@ -9,5 +9,3 @@ allow system_server sysfs_vibrator:file read;
 
 # zygote
 allow system_server app_zygote:process getpgid;
-
-allow system_server init:binder { call };

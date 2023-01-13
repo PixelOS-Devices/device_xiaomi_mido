@@ -37,6 +37,7 @@ ro.boot.fpsensor                u:object_r:vendor_fp_prop:s0
 ro.hardware.fingerprint         u:object_r:vendor_fp_prop:s0
 sys.fp.goodix                   u:object_r:vendor_fp_prop:s0
 sys.fp.vendor                   u:object_r:vendor_fp_prop:s0
+sys.fp.onstart			u:object_r:vendor_fp_prop:s0
 
 # iwlan
 persist.vendor.iwlan.logging.logcat          u:object_r:vendor_cnd_vendor_prop:s0

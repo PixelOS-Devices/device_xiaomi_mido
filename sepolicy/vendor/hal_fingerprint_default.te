@@ -45,8 +45,7 @@ allow hal_fingerprint_default mnt_user_file:lnk_file { read };
 allow hal_fingerprint_default sdcardfs:dir { search };
 allow hal_fingerprint_default sdcardfs:file { getattr };
 
-allow hal_fingerprint_default default_prop:file { getattr  open  read };
 get_prop(hal_fingerprint_default, boot_status_prop)
-get_prop(hal_fingerprint_default, default_prop)
+get_prop(hal_fingerprint_default, vendor_fp_prop)
 dontaudit hal_fingerprint_default default_android_vndservice:service_manager find;
 
