@@ -213,7 +213,8 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
-    libqcomfm_jni
+    libqcomfm_jni \
+    qcom.fmradio
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
