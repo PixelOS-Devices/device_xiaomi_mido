@@ -774,9 +774,9 @@ vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
 vendor/lib64/libssd.so|6dcbfc531e69a3c7eeaf21e85ac0202b8fa82d55
 vendor/lib64/libStDrvInt.so|7c921ee6db896233f9ea03f1fb3a9b7d9434e7dc
 
-# DRM - from Lmi 11/RKQ1.200826.002/V12.2.4.0.RJKMIXM
-vendor/lib64/libops.so|b2223e64db9d8f84262da7a8621013d3c63b6c98
-vendor/lib64/libspl.so|0fa8c0711f72fc8a914dce044cf8dddd79ee62e1
+# DRM - from Nuwa 13/TKQ1.220905.001/V14.0.7.0.TMBMIXM
+vendor/lib64/libops.so|7ebc11817262fddeccbb1478d6c4f457b9df54a0
+vendor/lib64/libspl.so|2d9bb63f3b86d59aa43272f73711a87cf031bd15
 
 # DRM - Widevine - from Crosshatch - 11/RQ3A.210605.005/7349499
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|57d280849768bc5d5e9e954b9ac90a5a31c54172
