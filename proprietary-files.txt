@@ -1245,8 +1245,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|f61553dec8c5800e
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|e338adca13d99937a0158876302784dc33c1821c
 system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|490f93d87fd47af45dc7c63fba7159a43caf81f8
 vendor/bin/sensors.qti|2516ba2f6e1a85c1e9990e175bcb8e91dca0560e
-vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
-vendor/etc/sensors/sensor_def_qcomdev.conf|fa2c2a99d295343c024296ed8a5c32fa0525374b
 vendor/lib/libsensor1.so|f7f0bcc04cc2c8a77a58739b7a49fbe2e64745db
 vendor/lib/libsensor_reg.so|9218d3aaaffc9fbe86d827f31012c10759178561
 vendor/lib/libsensor_thresh.so|0875f8d31bf9a2b11d6e74482f3758647311b1f2
