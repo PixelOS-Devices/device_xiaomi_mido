@@ -795,11 +795,11 @@ vendor/lib64/libStDrvInt.so|7c921ee6db896233f9ea03f1fb3a9b7d9434e7dc
 vendor/lib64/libops.so|7ebc11817262fddeccbb1478d6c4f457b9df54a0
 vendor/lib64/libspl.so|2d9bb63f3b86d59aa43272f73711a87cf031bd15
 
-# DRM - Widevine - from Crosshatch - 11/RQ3A.210605.005/7349499
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|57d280849768bc5d5e9e954b9ac90a5a31c54172
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|6b00f42dc85becc58f303bc4588331239c5c83aa
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|ae215b1afd38cda71818dfde44c6186bd4ec2cb1
+# DRM - Widevine - from Cheetah - 13/TD1A.220804.009.A2
+vendor/bin/hw/android.hardware.drm-service.widevine|fc38e1172795c4dda14b8b84dc8935a6989799a4
+vendor/etc/init/android.hardware.drm-service.widevine.rc|54c79ef531c9c135fa234a8515b3d37f0e1ccc4d
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml|596ddbb069c9d11fe7d273a435b902096b74f0bc
+vendor/lib64/libwvaidl.so|d35adca2e48bb0708ce85a94d9bda45191dd00d2
 
 # Fingerprint
 bin/gx_fpd:vendor/bin/gx_fpd
