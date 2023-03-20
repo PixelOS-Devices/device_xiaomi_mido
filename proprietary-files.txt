@@ -921,12 +921,12 @@ vendor/firmware/a506_zap.mdt|621df918f1d6ef0a0c3fe25c8f6a58d56af4b26a
 vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Hotword enrollment from OnePlus 9 Pro
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|72de7f534469af61fa5881936ef749fd5d65ee75
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|45ff9d3250a0d2213052349174b4c22b8781e101
+# Hotword enrollment from OnePlus 10 Pro
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|651c7057cff9b458ceb63c36897412b8649bc7eb
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|8e3b32736768f240f608c9ae1973c2fb68c0698e
 product/etc/permissions/com.android.hotwordenrollment.okgoogle.xml|f117af94b75a62805f05c50c0dc65bdcb7a1ca6a
 product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|52b6a326e59e543daac9b8d6e960654095c0fb6b
-product/framework/com.android.hotwordenrollment.common.util.jar|24acd0045d66a689b9605d5ee008e65b442f7fdd
+product/framework/com.android.hotwordenrollment.common.util.jar|a418f5697951468fb93788b6e92d2912e7ae7149
 
 # IRQ Balance - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/msm_irqbalance|e5706bc0acab394b53fafdc1d7f342f69c6f5649
