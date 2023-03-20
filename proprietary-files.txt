@@ -4,8 +4,6 @@ vendor/bin/dspservice|4ea49e1d95df172efe99e49d66c4a2cc485bd01d
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/libadsprpc.so|e8445f2ddd0d561f9221fe0678092c9b17e9b230
-vendor/lib/libadsp_default_listener.so|741d25867a2c4a35c962eac9f4df68b67b0ffbfc
 vendor/lib/libfastcvadsp_stub.so|65a05f1459852af23abd66f11c8b6fa6464beff3
 vendor/lib/libfastcvopt.so|69e333756b220f603d64435f1d7db4f772238114
 vendor/lib/libmdsprpc.so|fbeb913d9863cfe8c389c15b150066f5f0468860
