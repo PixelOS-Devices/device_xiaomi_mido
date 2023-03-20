@@ -40,12 +40,6 @@ vendor/lib/libdrc.so|0db5ddf092db129658c1340da9963010424a9a67
 vendor/lib/soundfx/libqcbassboost.so|29d65eb15bfeeb872cffe329ad4c8bd09b5b69a7
 vendor/lib/soundfx/libqcreverb.so|736fcd57f2d4c468ae04449a2fa49eec521dc067
 vendor/lib/soundfx/libqcvirt.so|72ad436f2c45b53057125a855acd36a0c812e2ed
-vendor/lib64/libacdb-fts.so|81844bb7324cddd556a9a42ed022d3f61a7ea708
-vendor/lib64/libacdbloader.so|43b8973a24f4f9fcc25b4e9c3f610c002d2b1860
-vendor/lib64/libacdbrtac.so|eb6ea296c4b079b4553cec286a33d4c1f60c86a9
-vendor/lib64/libadiertac.so|9dfd9e23d3f245e7bed2999f3038a0e58565ea7f
-vendor/lib64/libaudcal.so|d7eb3deedf4a39f15480be09a2ba543ed407e92a
-vendor/lib64/libaudioalsa.so|128f7394372048b0d58dfb988b4a7ccc0d0c7c0f
 
 # Audio ACDB - from LA.UM.10.6.2.r1-01600-89xx.0
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|0364848ae2eb5505bdace46d6b8f1391a39095a8
@@ -941,14 +935,6 @@ vendor/lib/libcapiv2vop.so|1515e1e4d37c01e1c8d3b819add1b5ca71d22f43
 vendor/lib/libsmwrapper.so|f0ee761c02c888e77d947bb87d162d9379bc1530
 
 # Media - from LA.UM.9.6.2.r1-04200-89xx.0
-lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
-lib/libOmxMux.so|1f861cbf34f5e885fb4f9637b4aab53a3c59691b
-system_ext/lib/libavenhancements.so|248d6cf0db255fb2cf5e077e7127f510036f7ec0
-system_ext/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
-system_ext/lib/libmmparser_lite.so|18cf2b71e517e651e35b931261f0c63783813ff6
-system_ext/lib/extractors/libmmparserextractor.so|5135a95473e887749100c7f84f5f659630c80193
-system_ext/lib64/libavenhancements.so|642292eeef580a33fec54b4505c1b6cecffde5a3
-system_ext/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
 vendor/etc/seccomp_policy/mediacodec.policy|3dec19ed56099a36b44cc72ad04ab23b9cc22ace
 vendor/etc/seccomp_policy/mediaextractor.policy|4234a844e9b1aef37397c8cfbd19566966ecd622
 vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
