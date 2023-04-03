@@ -55,6 +55,9 @@ vendor.audio.feature.src_trkn.enable=true
 vendor.audio.feature.vbat.enable=true
 vendor.audio.feature.wsa.enable=true
 
+# APCF extended
+bluetooth.le.disable_apcf_extended_features=1
+
 # Bluetooth
 bluetooth.sco.disable_enhanced_connection=1
 persist.vendor.qcom.bluetooth.soc=pronto
