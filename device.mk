@@ -42,6 +42,7 @@ OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-r
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Snap
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
