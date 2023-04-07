@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6:64 \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
-    libcamshim
+    libcamshim \
+    GCamGOPrebuilt
 
 # Consumerir
 PRODUCT_PACKAGES += \
