@@ -275,6 +275,9 @@ on property:persist.vendor.radio.atfwd.start=false
 on property:vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
 # DSDS - Restart qcrild on data switch
 on property:persist.sys.radio.mobile_data_swap=1
     restart vendor.qcrild
