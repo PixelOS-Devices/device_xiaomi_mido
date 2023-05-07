@@ -183,6 +183,7 @@ persist.vendor.recovery_update=false
 
 # Time Services
 persist.backup.ntpServer=0.pool.ntp.org
+persist.vendor.delta_time.enable=true
 
 # Tcp
 net.tcp.2g_init_rwnd=10
