@@ -649,4 +649,8 @@
         <item>2</item> <!-- COLOR_MODE_SATURATED -->
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
+
+    <!-- Display low battery warning when battery level dips to this value.
+         Also, the battery stats are flushed to disk when we hit this level.  -->
+    <integer name="config_criticalBatteryWarningLevel">10</integer>
 </resources>
