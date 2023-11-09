@@ -442,7 +442,7 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi-service \
+    android.hardware.wifi@1.0-service.mido \
     libcld80211 \
     libwpa_client \
     hostapd \
